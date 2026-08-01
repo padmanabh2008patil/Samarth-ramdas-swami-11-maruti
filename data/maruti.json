@@ -1,1 +1,324 @@
+[
+{
+"id": 1,
+"name": "शहापूर मारुती",
+"district": "सातारा",
+"taluka": "कराड",
+"village": "शहापूर",
+"history": "श्री समर्थ रामदास स्वामी यांनी धर्मजागृती, राष्ट्रजागृती आणि बलोपासना यासाठी स्थापन केलेल्या अकरा मारुतींपैकी शहापूरचा मारुती हा पहिला मानला जातो. समाजात शौर्य, संघटन, भक्ती आणि स्वधर्मरक्षणाची प्रेरणा देण्यासाठी या मारुतीची स्थापना करण्यात आली.",
+"photos": [
+"images/shahapur/1.jpg",
+"images/shahapur/2.jpg",
+"images/shahapur/3.jpg",
+"images/shahapur/4.jpg",
+"images/shahapur/5.jpg"
+],
+"location": {
+"address": "शहापूर, ता. कराड, जि. सातारा, महाराष्ट्र",
+"map": "https://maps.google.com/?q=Shahapur+Karad+Satara"
+},
+"other": {
+"establishedBy": "श्री समर्थ रामदास स्वामी",
+"deity": "श्री मारुती",
+"importance": "अकरा मारुतींपैकी पहिला",
+"festival": [
+"हनुमान जयंती",
+"राम नवमी",
+"दासनवमी"
+],
+"darshanTime": "सकाळी ५:०० ते रात्री ९:००"
+}
+},
+{
+"id": 2,
+"name": "मसूर मारुती",
+"district": "सातारा",
+"taluka": "कराड",
+"village": "मसूर",
+"history": "मसूर येथील मारुती हे श्री समर्थ रामदास स्वामी यांनी स्थापन केलेल्या अकरा मारुतींपैकी एक आहे. येथे बलोपासना, व्यायाम आणि राष्ट्रभक्तीचा संदेश देण्यात आला.",
+"photos": [
+"images/masur/1.jpg",
+"images/masur/2.jpg",
+"images/masur/3.jpg",
+"images/masur/4.jpg",
+"images/masur/5.jpg"
+],
+"location": {
+"address": "मसूर, ता. कराड, जि. सातारा, महाराष्ट्र",
+"map": "https://maps.google.com/?q=Masur+Karad+Satara"
+},
+"other": {
+"establishedBy": "श्री समर्थ रामदास स्वामी",
+"deity": "श्री मारुती",
+"importance": "अकरा मारुतींपैकी एक",
+"festival": [
+"हनुमान जयंती",
+"राम नवमी",
+"दासनवमी"
+],
+"darshanTime": "सकाळी ५:०० ते रात्री ९:००"
+}
+},
+{
+"id": 3,
+"name": "चाफळ दास मारुती",
+"district": "सातारा",
+"taluka": "पाटण",
+"village": "चाफळ",
+"history": "चाफळ येथील दास मारुती हे श्रीराम मंदिरासमोरील मंदिर असून नम्रता, सेवा आणि भक्तीचे प्रतीक मानले जाते.",
+"photos": [
+"images/chafal_das/1.jpg",
+"images/chafal_das/2.jpg",
+"images/chafal_das/3.jpg",
+"images/chafal_das/4.jpg",
+"images/chafal_das/5.jpg"
+],
+"location": {
+"address": "चाफळ, ता. पाटण, जि. सातारा, महाराष्ट्र",
+"map": "https://maps.google.com/?q=Chafal+Patan+Satara"
+},
+"other": {
+"establishedBy": "श्री समर्थ रामदास स्वामी",
+"deity": "श्री मारुती",
+"importance": "श्रीराम मंदिरासमोरील दास मारुती",
+"festival": [
+"राम नवमी",
+"हनुमान जयंती",
+"दासनवमी"
+],
+"darshanTime": "सकाळी ५:०० ते रात्री ९:००"
+}
+},
+{
+"id": 4,
+"name": "चाफळ प्रताप मारुती",
+"district": "सातारा",
+"taluka": "पाटण",
+"village": "चाफळ",
+"history": "चाफळ येथील प्रताप मारुती हे पराक्रम, धैर्य आणि राष्ट्ररक्षणाचे प्रतीक मानले जाते.",
+"photos": [
+"images/chafal_pratap/1.jpg",
+"images/chafal_pratap/2.jpg",
+"images/chafal_pratap/3.jpg",
+"images/chafal_pratap/4.jpg",
+"images/chafal_pratap/5.jpg"
+],
+"location": {
+"address": "चाफळ, ता. पाटण, जि. सातारा, महाराष्ट्र",
+"map": "https://maps.google.com/?q=Chafal+Patan+Satara"
+},
+"other": {
+"establishedBy": "श्री समर्थ रामदास स्वामी",
+"deity": "श्री मारुती",
+"importance": "पराक्रमाचे प्रतीक",
+"festival": [
+"हनुमान जयंती",
+"राम नवमी"
+],
+"darshanTime": "सकाळी ५:०० ते रात्री ९:००"
+}
+},
+{
+"id": 5,
+"name": "शिंगणवाडी मारुती",
+"district": "सातारा",
+"taluka": "पाटण",
+"village": "शिंगणवाडी",
+"history": "शिंगणवाडी येथील मारुती हे श्री समर्थ रामदास स्वामी यांनी स्थापन केलेल्या अकरा मारुतींपैकी एक आहे. समर्थांनी युवकांमध्ये शौर्य, व्यायाम, संघटन आणि राष्ट्रभक्तीची भावना निर्माण करण्यासाठी येथे मारुतीची स्थापना केली.",
+"photos": [
+"images/shinganwadi/1.jpg",
+"images/shinganwadi/2.jpg",
+"images/shinganwadi/3.jpg",
+"images/shinganwadi/4.jpg",
+"images/shinganwadi/5.jpg"
+],
+"location": {
+"address": "शिंगणवाडी, ता. पाटण, जि. सातारा, महाराष्ट्र",
+"map": "https://maps.google.com/?q=Shinganwadi+Patan+Satara"
+},
+"other": {
+"establishedBy": "श्री समर्थ रामदास स्वामी",
+"deity": "श्री मारुती",
+"importance": "समर्थ संप्रदायातील प्रमुख मारुती",
+"festival": [
+"हनुमान जयंती",
+"दासनवमी"
+],
+"darshanTime": "सकाळी ५:०० ते रात्री ९:००"
+}
+},
+{
+"id": 6,
+"name": "उंब्रज मारुती",
+"district": "सातारा",
+"taluka": "कराड",
+"village": "उंब्रज",
+"history": "उंब्रज येथील मारुती हे श्री समर्थ रामदास स्वामी यांनी स्थापन केलेल्या अकरा मारुतींपैकी एक असून बलोपासना आणि भक्तीचा संदेश देणारे महत्त्वाचे मंदिर आहे.",
+"photos": [
+"images/umbraj/1.jpg",
+"images/umbraj/2.jpg",
+"images/umbraj/3.jpg",
+"images/umbraj/4.jpg",
+"images/umbraj/5.jpg"
+],
+"location": {
+"address": "उंब्रज, ता. कराड, जि. सातारा, महाराष्ट्र",
+"map": "https://maps.google.com/?q=Umbraj+Karad+Satara"
+},
+"other": {
+"establishedBy": "श्री समर्थ रामदास स्वामी",
+"deity": "श्री मारुती",
+"importance": "अकरा मारुतींपैकी एक",
+"festival": [
+"हनुमान जयंती",
+"राम नवमी"
+],
+"darshanTime": "सकाळी ५:०० ते रात्री ९:००"
+}
+},
+{
+"id": 7,
+"name": "माजगाव मारुती",
+"district": "सातारा",
+"taluka": "पाटण",
+"village": "माजगाव",
+"history": "माजगाव येथील मारुती मंदिर हे श्री समर्थ रामदास स्वामी यांच्या अकरा मारुतींपैकी एक आहे. येथे धर्म, व्यायाम आणि राष्ट्रसेवेचा संदेश दिला जातो.",
+"photos": [
+"images/majgaon/1.jpg",
+"images/majgaon/2.jpg",
+"images/majgaon/3.jpg",
+"images/majgaon/4.jpg",
+"images/majgaon/5.jpg"
+],
+"location": {
+"address": "माजगाव, ता. पाटण, जि. सातारा, महाराष्ट्र",
+"map": "https://maps.google.com/?q=Majgaon+Patan+Satara"
+},
+"other": {
+"establishedBy": "श्री समर्थ रामदास स्वामी",
+"deity": "श्री मारुती",
+"importance": "अकरा मारुतींपैकी एक",
+"festival": [
+"हनुमान जयंती",
+"दासनवमी"
+],
+"darshanTime": "सकाळी ५:०० ते रात्री ९:००"
+}
+},
+{
+"id": 8,
+"name": "बाहे मारुती",
+"district": "सांगली",
+"taluka": "वाळवा",
+"village": "बाहे",
+"history": "बाहे येथील मारुती हे श्री समर्थ रामदास स्वामी यांनी स्थापन केलेल्या अकरा मारुतींपैकी एक महत्त्वाचे मंदिर आहे. कृष्णा नदीच्या परिसरात वसलेले हे मंदिर भाविकांचे श्रद्धास्थान आहे.",
+"photos": [
+"images/bahe/1.jpg",
+"images/bahe/2.jpg",
+"images/bahe/3.jpg",
+"images/bahe/4.jpg",
+"images/bahe/5.jpg"
+],
+"location": {
+"address": "बाहे, ता. वाळवा, जि. सांगली, महाराष्ट्र",
+"map": "https://maps.google.com/?q=Bahe+Walwa+Sangli"
+},
+"other": {
+"establishedBy": "श्री समर्थ रामदास स्वामी",
+"deity": "श्री मारुती",
+"importance": "अकरा मारुतींपैकी एक",
+"festival": [
+"हनुमान जयंती",
+"राम नवमी"
+],
+"darshanTime": "सकाळी ५:०० ते रात्री ९:००"
+}
+},
+{
+"id": 9,
+"name": "मनपाडळे मारुती",
+"district": "कोल्हापूर",
+"taluka": "हातकणंगले",
+"village": "मनपाडळे",
+"history": "मनपाडळे येथील मारुती मंदिर हे श्री समर्थ रामदास स्वामी यांच्या अकरा मारुतींपैकी एक आहे. समर्थांनी बलोपासना, धर्मरक्षण आणि राष्ट्रभक्तीचा संदेश देण्यासाठी येथे मारुतीची स्थापना केली.",
+"photos": [
+"images/manpadale/1.jpg",
+"images/manpadale/2.jpg",
+"images/manpadale/3.jpg",
+"images/manpadale/4.jpg",
+"images/manpadale/5.jpg"
+],
+"location": {
+"address": "मनपाडळे, ता. हातकणंगले, जि. कोल्हापूर, महाराष्ट्र",
+"map": "https://maps.google.com/?q=Manpadale+Hatkanangale+Kolhapur"
+},
+"other": {
+"establishedBy": "श्री समर्थ रामदास स्वामी",
+"deity": "श्री मारुती",
+"importance": "अकरा मारुतींपैकी एक",
+"festival": [
+"हनुमान जयंती"
+],
+"darshanTime": "सकाळी ५:०० ते रात्री ९:००"
+}
+},
+{
+"id": 10,
+"name": "पारगाव मारुती",
+"district": "कोल्हापूर",
+"taluka": "पन्हाळा",
+"village": "पारगाव",
+"history": "पारगाव येथील मारुती हे श्री समर्थ रामदास स्वामी यांनी स्थापन केलेल्या अकरा मारुतींपैकी एक असून शौर्य, भक्ती आणि समाजसंघटन यांचे प्रतीक मानले जाते.",
+"photos": [
+"images/pargaon/1.jpg",
+"images/pargaon/2.jpg",
+"images/pargaon/3.jpg",
+"images/pargaon/4.jpg",
+"images/pargaon/5.jpg"
+],
+"location": {
+"address": "पारगाव, ता. पन्हाळा, जि. कोल्हापूर, महाराष्ट्र",
+"map": "https://maps.google.com/?q=Pargaon+Panhala+Kolhapur"
+},
+"other": {
+"establishedBy": "श्री समर्थ रामदास स्वामी",
+"deity": "श्री मारुती",
+"importance": "अकरा मारुतींपैकी एक",
+"festival": [
+"हनुमान जयंती",
+"दासनवमी"
+],
+"darshanTime": "सकाळी ५:०० ते रात्री ९:००"
+}
+},
+{
+"id": 11,
+"name": "बत्तीस शिराळा मारुती",
+"district": "सांगली",
+"taluka": "शिराळा",
+"village": "बत्तीस शिराळा",
+"history": "बत्तीस शिराळा येथील मारुती मंदिर हे श्री समर्थ रामदास स्वामी यांनी स्थापन केलेल्या अकरा मारुतींपैकी एक आहे. हे मंदिर समर्थ संप्रदायातील महत्त्वाचे श्रद्धास्थान असून वर्षभर अनेक भाविक दर्शनासाठी येतात.",
+"photos": [
+"images/battis_shirala/1.jpg",
+"images/battis_shirala/2.jpg",
+"images/battis_shirala/3.jpg",
+"images/battis_shirala/4.jpg",
+"images/battis_shirala/5.jpg"
+],
+"location": {
+"address": "बत्तीस शिराळा, ता. शिराळा, जि. सांगली, महाराष्ट्र",
+"map": "https://maps.google.com/?q=Battis+Shirala+Sangli"
+},
+"other": {
+"establishedBy": "श्री समर्थ रामदास स्वामी",
+"deity": "श्री मारुती",
+"importance": "अकरा मारुतींपैकी एक",
+"festival": [
+"हनुमान जयंती",
+"राम नवमी"
+],
+"darshanTime": "सकाळी ५:०० ते रात्री ९:००"
+}
+}
+]
 
