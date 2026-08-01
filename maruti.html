@@ -12,13 +12,29 @@
 <h1 id="marutiName"></h1>
 
 <div class="menu">
-    <div class="card">📖 माहिती</div>
-    <div class="card">🖼️ फोटो</div>
-    <div class="card">📍 Location</div>
-    <div class="card">ℹ️ इतर माहिती</div>
+
+<div class="card" onclick="location.href='info.html'">
+📖 माहिती
 </div>
 
-<script src="js/script.js"></script>
+<div class="card" onclick="location.href='photo.html'">
+🖼️ फोटो
+</div>
+
+<div class="card" onclick="location.href='location.html'">
+📍 Location
+</div>
+
+<div class="card" onclick="location.href='other.html'">
+ℹ️ इतर माहिती
+</div>
+
+</div>
+
+<script>
+document.getElementById("marutiName").innerHTML =
+localStorage.getItem("marutiName");
+</script>
 
 </body>
 </html>
