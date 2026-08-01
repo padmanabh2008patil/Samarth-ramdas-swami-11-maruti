@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>मारुती Location</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+
+body{
+    background:#f5f5f5;
+}
+
+.back{
+    display:inline-block;
+    margin:20px;
+    background:#e65100;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:8px;
+}
+
+.container{
+    width:90%;
+    max-width:900px;
+    margin:auto;
+}
+
+.box{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+h1{
+    text-align:center;
+    color:#e65100;
+    margin-bottom:20px;
+}
+
+.item{
+    margin:15px 0;
+    padding:15px;
+    background:#f7f7f7;
+    border-left:5px solid #ff9800;
+    border-radius:8px;
+}
+
+.item b{
+    color:#e65100;
+}
+
+.mapBtn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 20px;
+    background:#ff9800;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<a href="maruti.html" class="back">← मागे जा</a>
+
+<div class="container">
+
+<h1 id="title"></h1>
+
+<div class="box" id="locationBox">
+
+लोड होत आहे...
+
+</div>
+
+</div>
+
+<script>
+
+const selected = localStorage.getItem("marutiName");
+
+document.getElementById("title").innerHTML = selected;
+
+fetch("data/maruti.json")
+.then(res=>res.json())
+.then(data=>{
+
+const maruti=data.find(item=>item.name===selected);
+
+if(!maruti) return;
+
+const loc=maruti.location;
+
+document.getElementById("locationBox").innerHTML=`
+
+<div class="item">
+<b>📍 पत्ता</b><br>
+${loc.address}
+</div>
+
+<div class="item">
+<b>🗺️ Google Maps</b><br>
+
+<a class="mapBtn" href="${loc.map}" target="_blank">
+Google Maps उघडा
+</a>
+
+</div>
+
+`;
+
+});
+
+</script>
+
+</body>
+</html>
