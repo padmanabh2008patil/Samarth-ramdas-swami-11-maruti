@@ -1,1 +1,127 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>इतर माहिती</title>
 
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+
+.container{
+    width:90%;
+    max-width:900px;
+    margin:20px auto;
+}
+
+.box{
+    background:#fff;
+    border-radius:12px;
+    padding:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.item{
+    margin:15px 0;
+    padding:12px;
+    background:#f7f7f7;
+    border-left:5px solid #ff9800;
+    border-radius:8px;
+}
+
+.item b{
+    color:#e65100;
+}
+
+.back{
+    display:inline-block;
+    margin:20px;
+    padding:10px 18px;
+    background:#e65100;
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+h1{
+    text-align:center;
+    color:#e65100;
+    margin-bottom:20px;
+}
+
+ul{
+    margin-left:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<a href="maruti.html" class="back">← मागे जा</a>
+
+<div class="container">
+
+<h1 id="title"></h1>
+
+<div class="box" id="details">
+लोड होत आहे...
+</div>
+
+</div>
+
+<script>
+
+const selected = localStorage.getItem("marutiName");
+
+document.getElementById("title").innerHTML = selected;
+
+fetch("data/maruti.json")
+.then(res => res.json())
+.then(data => {
+
+const maruti = data.find(item => item.name === selected);
+
+if(!maruti) return;
+
+const other = maruti.other;
+
+document.getElementById("details").innerHTML = `
+
+<div class="item">
+<b>स्थापना :</b><br>
+${other.establishedBy}
+</div>
+
+<div class="item">
+<b>आराध्य देवता :</b><br>
+${other.deity}
+</div>
+
+<div class="item">
+<b>महत्त्व :</b><br>
+${other.importance || "-"}
+</div>
+
+<div class="item">
+<b>उत्सव :</b>
+<ul>
+${other.festival.map(f=>`<li>${f}</li>`).join("")}
+</ul>
+</div>
+
+<div class="item">
+<b>दर्शन वेळ :</b><br>
+${other.darshanTime}
+</div>
+
+`;
+
+});
+
+</script>
+
+</body>
+</html>
