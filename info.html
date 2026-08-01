@@ -64,23 +64,41 @@ h1{
 
 const selected = localStorage.getItem("marutiName");
 
-document.getElementById("title").innerHTML=selected;
+document.getElementById("title").innerHTML = selected || "मारुती माहिती";
 
 fetch("data/maruti.json")
 
-.then(res=>res.json())
+.then(res => {
+    if (!res.ok) {
+        throw new Error("maruti.json सापडली नाही");
+    }
+    return res.json();
+})
 
-.then(data=>{
+.then(data => {
 
-const maruti=data.find(item=>item.name===selected);
+    const maruti = data.find(item => item.name === selected);
 
-if(maruti){
+    if (maruti) {
 
-document.getElementById("history").innerHTML=
+        document.getElementById("history").innerHTML =
+        maruti.history || "या मारुतीची माहिती लवकरच उपलब्ध होईल.";
 
-maruti.history || "या मारुतीची माहिती लवकरच उपलब्ध होईल.";
+    } else {
 
-}
+        document.getElementById("history").innerHTML =
+        "या मारुतीची माहिती सापडली नाही.";
+
+    }
+
+})
+
+.catch(error => {
+
+    console.log(error);
+
+    document.getElementById("history").innerHTML =
+    "माहिती लोड करताना समस्या आली. कृपया पुन्हा प्रयत्न करा.";
 
 });
 
