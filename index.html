@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>श्री समर्थ रामदास स्वामी यांनी स्थापन केलेले ११ मारुती</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🛕 श्री समर्थ रामदास स्वामी यांनी स्थापन केलेले ११ मारुती</h1>
+    <p>महाराष्ट्रातील श्री समर्थ रामदास स्वामी यांनी स्थापन केलेल्या अकरा मारुतींची माहिती</p>
+</header>
+
+<main class="container">
+
+<div class="card" onclick="openMaruti('शहापूर मारुती')">
+<h2>शहापूर मारुती</h2>
+</div>
+
+<div class="card" onclick="openMaruti('मसूर मारुती')">
+<h2>मसूर मारुती</h2>
+</div>
+
+<div class="card" onclick="openMaruti('चाफळ - दास मारुती')">
+<h2>चाफळ - दास मारुती</h2>
+</div>
+
+<div class="card" onclick="openMaruti('चाफळ - प्रताप मारुती')">
+<h2>चाफळ - प्रताप मारुती</h2>
+</div>
+
+<div class="card" onclick="openMaruti('शिंगणवाडी मारुती')">
+<h2>शिंगणवाडी मारुती</h2>
+</div>
+
+<div class="card" onclick="openMaruti('उंब्रज मारुती')">
+<h2>उंब्रज मारुती</h2>
+</div>
+
+<div class="card" onclick="openMaruti('माजगाव मारुती')">
+<h2>माजगाव मारुती</h2>
+</div>
+
+<div class="card" onclick="openMaruti('बाहे मारुती')">
+<h2>बाहे मारुती</h2>
+</div>
+
+<div class="card" onclick="openMaruti('मनपाडळे मारुती')">
+<h2>मनपाडळे मारुती</h2>
+</div>
+
+<div class="card" onclick="openMaruti('पारगाव मारुती')">
+<h2>पारगाव मारुती</h2>
+</div>
+
+<div class="card" onclick="openMaruti('बत्तीस शिराळा मारुती')">
+<h2>बत्तीस शिराळा मारुती</h2>
+</div>
+
+</main>
+
+<script>
+function openMaruti(name){
+    localStorage.setItem("marutiName", name);
+    window.location.href = "maruti.html";
+}
+</script>
+
+</body>
+</html>
