@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+header{
+    background:linear-gradient(135deg,#ff9800,#e65100);
+    color:#fff;
+    text-align:center;
+    padding:25px 15px;
+    box-shadow:0 2px 10px rgba(0,0,0,.2);
+}
+
+header h1{
+    font-size:28px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:17px;
+}
+
+.container{
+    width:90%;
+    max-width:900px;
+    margin:30px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#fff;
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+    cursor:pointer;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h2{
+    color:#e65100;
+    font-size:22px;
+}
+
+#marutiName{
+    text-align:center;
+    color:#e65100;
+    margin:30px 0;
+    font-size:32px;
+}
+
+.menu{
+    width:90%;
+    max-width:700px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.menu .card{
+    font-size:22px;
+    font-weight:bold;
+    padding:35px 20px;
+}
+
+@media(max-width:600px){
+
+.menu{
+    grid-template-columns:1fr;
+}
+
+header h1{
+    font-size:24px;
+}
+
+#marutiName{
+    font-size:28px;
+}
+
+}
