@@ -1,0 +1,189 @@
+[
+  {
+    "id": 1,
+    "name": "शहापूर मारुती",
+    "district": "सातारा",
+    "village": "शहापूर",
+    "history": "",
+    "photos": [],
+    "location": {
+      "address": "",
+      "map": ""
+    },
+    "other": {
+      "establishedBy": "श्री समर्थ रामदास स्वामी",
+      "festival": "",
+      "timing": ""
+    }
+  },
+  {
+    "id": 2,
+    "name": "मसूर मारुती",
+    "district": "सातारा",
+    "village": "मसूर",
+    "history": "",
+    "photos": [],
+    "location": {
+      "address": "",
+      "map": ""
+    },
+    "other": {
+      "establishedBy": "श्री समर्थ रामदास स्वामी",
+      "festival": "",
+      "timing": ""
+    }
+  },
+  {
+    "id": 3,
+    "name": "चाफळ दास मारुती",
+    "district": "सातारा",
+    "village": "चाफळ",
+    "history": "",
+    "photos": [],
+    "location": {
+      "address": "",
+      "map": ""
+    },
+    "other": {
+      "establishedBy": "श्री समर्थ रामदास स्वामी",
+      "festival": "",
+      "timing": ""
+    }
+  },
+  {
+    "id": 4,
+    "name": "चाफळ प्रताप मारुती",
+    "district": "सातारा",
+    "village": "चाफळ",
+    "history": "",
+    "photos": [],
+    "location": {
+      "address": "",
+      "map": ""
+    },
+    "other": {
+      "establishedBy": "श्री समर्थ रामदास स्वामी",
+      "festival": "",
+      "timing": ""
+    }
+  },
+  {
+    "id": 5,
+    "name": "शिंगणवाडी मारुती",
+    "district": "सातारा",
+    "village": "शिंगणवाडी",
+    "history": "",
+    "photos": [],
+    "location": {
+      "address": "",
+      "map": ""
+    },
+    "other": {
+      "establishedBy": "श्री समर्थ रामदास स्वामी",
+      "festival": "",
+      "timing": ""
+    }
+  },
+  {
+    "id": 6,
+    "name": "उंब्रज मारुती",
+    "district": "सातारा",
+    "village": "उंब्रज",
+    "history": "",
+    "photos": [],
+    "location": {
+      "address": "",
+      "map": ""
+    },
+    "other": {
+      "establishedBy": "श्री समर्थ रामदास स्वामी",
+      "festival": "",
+      "timing": ""
+    }
+  },
+  {
+    "id": 7,
+    "name": "माजगाव मारुती",
+    "district": "सातारा",
+    "village": "माजगाव",
+    "history": "",
+    "photos": [],
+    "location": {
+      "address": "",
+      "map": ""
+    },
+    "other": {
+      "establishedBy": "श्री समर्थ रामदास स्वामी",
+      "festival": "",
+      "timing": ""
+    }
+  },
+  {
+    "id": 8,
+    "name": "बाहे मारुती",
+    "district": "सांगली",
+    "village": "बाहे",
+    "history": "",
+    "photos": [],
+    "location": {
+      "address": "",
+      "map": ""
+    },
+    "other": {
+      "establishedBy": "श्री समर्थ रामदास स्वामी",
+      "festival": "",
+      "timing": ""
+    }
+  },
+  {
+    "id": 9,
+    "name": "मनपाडळे मारुती",
+    "district": "कोल्हापूर",
+    "village": "मनपाडळे",
+    "history": "",
+    "photos": [],
+    "location": {
+      "address": "",
+      "map": ""
+    },
+    "other": {
+      "establishedBy": "श्री समर्थ रामदास स्वामी",
+      "festival": "",
+      "timing": ""
+    }
+  },
+  {
+    "id": 10,
+    "name": "पारगाव मारुती",
+    "district": "कोल्हापूर",
+    "village": "पारगाव",
+    "history": "",
+    "photos": [],
+    "location": {
+      "address": "",
+      "map": ""
+    },
+    "other": {
+      "establishedBy": "श्री समर्थ रामदास स्वामी",
+      "festival": "",
+      "timing": ""
+    }
+  },
+  {
+    "id": 11,
+    "name": "बत्तीस शिराळा मारुती",
+    "district": "सांगली",
+    "village": "बत्तीस शिराळा",
+    "history": "",
+    "photos": [],
+    "location": {
+      "address": "",
+      "map": ""
+    },
+    "other": {
+      "establishedBy": "श्री समर्थ रामदास स्वामी",
+      "festival": "",
+      "timing": ""
+    }
+  }
+]
